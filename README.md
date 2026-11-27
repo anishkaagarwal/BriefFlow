@@ -38,6 +38,8 @@ npm run dev
 This runs the frontend only — without a serverless backend, "Generate" falls back to the
 local template generator automatically, so it still works.
 
+Run `npm test` to run the Vitest suite for the deterministic fallback generator.
+
 ## Deploy (Vercel, no CLI needed)
 
 1. Push this folder to a new GitHub repo.
